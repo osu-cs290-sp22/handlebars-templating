@@ -9,8 +9,7 @@
     "dev": "nodemon server.js",
     "build": "handlebars photoCard.handlebars -f public/photoCardTemplate.js",
     "prestart": "npm run build",
-    "predev": "npm run build",
-    "prepredev": "echo \"This is before prevev\""
+    "predev": "npm run build"
   },
   "repository": {
     "type": "git",
