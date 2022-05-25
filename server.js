@@ -7,7 +7,7 @@ console.log("== peopleData:", peopleData)
 var port = process.env.PORT || 8000;
 var app = express();
 
-app.engine('handlebars', exphbs.engine({ defaultLayout: null }))
+app.engine('handlebars', exphbs.engine({ defaultLayout: 'main' }))
 app.set('view engine', 'handlebars')
 
 app.use(express.static('public'));
